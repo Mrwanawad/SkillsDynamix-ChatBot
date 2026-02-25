@@ -8,7 +8,7 @@ def get_relevant_chunks(  user_query: str) -> list[ str ] :
     
     results = collection.query(
     query_texts= [ user_query ],
-    n_results= 1
+    n_results= 5
     )
     
     return results['documents']
