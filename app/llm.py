@@ -5,11 +5,14 @@ from typing import List, Tuple
 import google.genai as genai
 from google.genai import types
 from dotenv import load_dotenv;     load_dotenv()
+import streamlit as st
+
+st.secrets
 
 class LLM :
     
     def __init__(self):     # Initialize the Large Language Model
-        self.llm = genai.Client( api_key= os.getenv( 'GOOGLE_GEMINI_API_KEY' ) )
+        self.llm = genai.Client( api_key= st.secrets["GOOGLE_GEMINI_API_KEY"] )
         print( 'API KEY Found Successfully !' )
         print( 'Initialized LLM Successfully !' )
 
