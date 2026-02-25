@@ -1,0 +1,17 @@
+[project]
+name = "rag-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.1",
+    "dotenv>=0.9.9",
+    "google-genai>=1.64.0",
+    "langchain-community>=0.4.1",
+    "langchain-text-splitters>=1.1.1",
+    "pypdf>=6.7.3",
+    "streamlit>=1.54.0",
+    "uuid>=1.30",
+    "withoutbg>=1.0.2",
+]
