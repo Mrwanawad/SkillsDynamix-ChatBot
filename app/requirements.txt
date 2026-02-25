@@ -1,0 +1,9 @@
+chromadb
+google_genai
+dotenv
+langchain_community
+langchain_text_splitters
+pypdf
+uuid
+streamlit
+withoutbg
