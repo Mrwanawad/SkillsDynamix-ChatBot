@@ -7,7 +7,6 @@ from google.genai import types
 from dotenv import load_dotenv;     load_dotenv()
 import streamlit as st
 
-st.secrets
 
 class LLM :
     
